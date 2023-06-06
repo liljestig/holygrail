@@ -7,8 +7,8 @@ var client = redis.createClient();
 app.use(express.static("public"));
 
 // init values
-client.mset("header", 0, "left", 0, "article", 0, "right", 0, "footer", 0);
-client.mget(
+client.mSet("header", 0, "left", 0, "article", 0, "right", 0, "footer", 0);
+client.mGet(
   ["header", "left", "article", "right", "footer"],
   function (err, value) {
     console.log(value);
