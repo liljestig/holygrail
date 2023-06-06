@@ -1,0 +1,23 @@
+{
+  "name": "holygrail",
+  "version": "1.0.0",
+  "description": "Developed using Visual Studio Code for Windows, learning about creating a simple web application using Express and Redis. ## How to install Clone the repository and change directory to the deployment root directory, for example C:\\Coding\\holygrail, then run the npm install command to install the dependencies. Execute the \"npm start\" command to start the application. ## Usage Web browse to http://localhost:3000/ in a web browser of choice and enjoy. ## Roadmap Add more functionality. ## License MIT License Copyright (c) 2023 Dan Liljestig",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liljestig/holygrail.git"
+  },
+  "author": "dan@liljestig.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liljestig/holygrail/issues"
+  },
+  "homepage": "https://github.com/liljestig/holygrail#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
