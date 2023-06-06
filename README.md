@@ -6,7 +6,7 @@ Execute the "npm start" command to start the application.
 ## Usage
 Web browse to http://localhost:3000/ in a web browser of choice and enjoy.
 ## Roadmap
-Add functionality to log in as a different user, and not being able to see each other's account details.
+Add more functionality.
 ## License
 MIT License
 Copyright (c) 2023 Dan Liljestig
