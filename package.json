@@ -4,7 +4,8 @@
   "description": "Developed using Visual Studio Code for Windows, learning about creating a simple web application using Express and Redis. ## How to install Clone the repository and change directory to the deployment root directory, for example C:\\Coding\\holygrail, then run the npm install command to install the dependencies. Execute the \"npm start\" command to start the application. ## Usage Web browse to http://localhost:3000/ in a web browser of choice and enjoy. ## Roadmap Add functionality to log in as a different user, and not being able to see each other's account details. ## License MIT License Copyright (c) 2023 Dan Liljestig",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
