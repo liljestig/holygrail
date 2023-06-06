@@ -6,8 +6,8 @@ var client = redis.createClient();
 app.use(express.static('public'));
 
 // init values
-client.mSet("header", 0, "left", 0, "article", 0, "right", 0, "footer", 0);
-client.mGet(
+client.mset("header", 0, "left", 0, "article", 0, "right", 0, "footer", 0);
+client.mget(
   ["header", "left", "article", "right", "footer"],
   function (err, value) {
     console.log(value);
@@ -16,7 +16,7 @@ client.mGet(
 
 function data() {
   return new Promise((resolve, reject) => {
-    client.mGet(
+    client.mget(
       ["header", "left", "article", "right", "footer"],
       function (err, value) {
         const data = {
